@@ -10,4 +10,8 @@ class CashRegister
     @items << title
     @total += price * quantity
   end
+  
+  def apply_discount
+    
+  end
 end
