@@ -30,5 +30,6 @@ class CashRegister
     @total -= @last_transaction
     if @total == nil
       @total = 0
+    end
   end
 end
